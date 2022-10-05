@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./js/validacion-login.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="proc/proc-login.php" method="post" enctype="multipart/form-data" onsubmit="return validaFormulario();">
+        <label for="email">Email</label><br>
+        <input type="text" name="correo" id="email" class="form-control input_user color" placeholder="exemple@jpg.com"><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="psw" id="password" class="form-control input_pass color" placeholder="password"><br><br>
+        <button type="submit" name="button" class="btn login_btn">Login</button>
+    </form>
+</body>
+
+</html>
