@@ -10,15 +10,8 @@
   <script type="text/javascript" src="./proc/validarlogin.js"></script>
 </head>
 <body>
-<?php
-    session_start();
-    $_SESSION['login']=false;
-    $_SESSION['login2']=false;
-?>
-
-
 <!-- partial:index.partial.html -->
-<form class="login"  action="proc/proc_login.php"  method="post">
+<form class="login"  action="./proc/proc_login.php"  method="post">
   
 <div class="input-group mb-3">
                             <div class="input-group-append">
@@ -34,7 +27,7 @@
                         </div>
   <a href="#"> Not registered? Create an account</a>
   
-  <button onclick="return validarLogin()" name="insesion" type="submit">Login</button>
+  <button onclick="return validarLogin()" name="button" type="submit">Login</button> 
   
 
 

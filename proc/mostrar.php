@@ -1,7 +1,7 @@
 <?php
 session_start();
-if(!isset($_SESSION["email_usu"])){
-    header("Location:../index.html");
+if(!isset($_SESSION["nombre_user"])){
+    header("Location: ../index.php");
 }
 ?>
 <!DOCTYPE html>
@@ -13,6 +13,10 @@ if(!isset($_SESSION["email_usu"])){
     <title>Document</title>
 </head>
 <body>
-    <h1>Bienvenido </h1>
+    <?php
+    $nombre=$_SESSION["nombre_user"];
+    echo "<h1>Bienvenido $nombre</h1>"
+    ?>
+    <a href="./logout.php">Log Out</a>
 </body>
 </html>
