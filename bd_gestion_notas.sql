@@ -44,6 +44,7 @@ INSERT INTO `tbl_login` (`Id`, `correo`, `password`, `nombre`) VALUES
 (1, 'alex@gmail.com', '7110EDA4D09E062AA5E4A390B0A572AC0D2C0220', 'Alex'),
 (2, 'guillem@gmail.com', '7110EDA4D09E062AA5E4A390B0A572AC0D2C0220', 'Guillem'),
 (3, 'mario@gmail.com', '7110EDA4D09E062AA5E4A390B0A572AC0D2C0220', 'Mario');
+(4, 'eric@gmail.com', '7110EDA4D09E062AA5E4A390B0A572AC0D2C0220', 'Eric');
 
 --
 -- Índices para tablas volcadas
