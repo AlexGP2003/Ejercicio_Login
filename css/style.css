@@ -88,7 +88,23 @@ body {
     background-color: rgb(70, 53, 187);
 }
 
+.container {
+    height: 400px;
+    position: relative;
+    display: block;
+}
 
+
+/* .center {
+    margin: 0;
+    position: absolute;
+    top: 73%;
+    left: 6%;
+} */
+
+.logo2 {
+    display: none;
+}
 
 @-webkit-keyframes wawes {
     from {
@@ -132,4 +148,95 @@ a {
     right: 10px;
     bottom: 10px;
     font-size: 12px;
+}
+
+.recuadro {
+    width: 75%;
+    height: 50vh;
+    /* background-color: #116079; */
+    position: relative;
+    border-radius: 30px;
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-c:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section-50 {
+    width: 50%;
+    float: left;
+}
+
+.section-50 img {
+    width: 30vw;
+}
+
+.body2 {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: none;
+    }
+    .logo2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        display: none;
+    }
+    .logo2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: none;
+    }
+    .logo2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        display: none;
+    }
+    .logo2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        display: none;
+    }
+    .logo2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

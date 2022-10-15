@@ -66,6 +66,9 @@
   top: 10vh;
 }
 
+.logo2{
+    width: 4vw;
+}
 @-webkit-keyframes cube {
   from {
     -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
@@ -89,5 +92,21 @@
     -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
             transform: scale(20) rotate(960deg) translate(-50%, -50%);
     opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .logo2{
+    width: 10vw;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .logo2{
+    width: 10vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo2{
+    width: 10vw;
   }
 }

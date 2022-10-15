@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-10-2022 a las 19:31:41
+-- Tiempo de generación: 15-10-2022 a las 12:38:42
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 7.4.29
 
@@ -44,7 +44,6 @@ INSERT INTO `tbl_login` (`Id`, `correo`, `password`, `nombre`) VALUES
 (1, 'alex@gmail.com', '7110EDA4D09E062AA5E4A390B0A572AC0D2C0220', 'Alex'),
 (2, 'guillem@gmail.com', '7110EDA4D09E062AA5E4A390B0A572AC0D2C0220', 'Guillem'),
 (3, 'mario@gmail.com', '7110EDA4D09E062AA5E4A390B0A572AC0D2C0220', 'Mario');
-(4, 'eric@gmail.com', '7110EDA4D09E062AA5E4A390B0A572AC0D2C0220', 'Eric');
 
 --
 -- Índices para tablas volcadas
